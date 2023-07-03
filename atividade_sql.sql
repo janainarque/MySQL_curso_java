@@ -19,6 +19,7 @@ INSERT INTO pessoa VALUES("Nome 8", 55, '69999999', 'qn 14b conj 2, Go, Goias', 
 INSERT INTO pessoa VALUES("Nome 9", 70, '64999999', 'qn 14b conj 2, BA, Bahia', 'nome9@hotmail.com');
 INSERT INTO pessoa VALUES("Nome 10", 90, '67999999', 'qn 14b conj 2, RR, Roraima', 'nome10@yahoo.com');
 
+
 select * from  pessoa;
 select * from pessoa where endereco like '%qn 14b conj 2%' and idade > 18;
 
